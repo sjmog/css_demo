@@ -1,3 +1,72 @@
+/* --- typography --- */
+
+* {
+  font-family: Georgia, Helvetica, Arial, sans-serif;
+  color: #444;
+}
+
+body {
+  background-color: #fafafa;
+  margin: 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
 h1 {
-  color: red;
+  text-align: center;
+  font-size: 42px;
+  margin-top: 0;
+}
+
+h2, h3 {
+  max-width: 520px;
+  margin: 24px auto;
+}
+
+aside {
+  text-align: center;
+  font-style: italic;
+  font-size: 24px;
+  padding-bottom: 16px;
+}
+
+ul {
+  max-width: 520px;
+  margin: 24px auto;
+}
+
+li {
+  line-height: 1.5;
+}
+
+blockquote {
+  max-width: 520px;
+  margin: 24px auto;
+  font-style: italic;
+  font-size: 24px;
+  color: #777;
+  line-height: 1.5;
+}
+
+.last-paragraph {
+  padding-bottom: 24px;
+}
+
+/* --- layout --- */
+
+.header {
+  width: 100%;
+  background-color: #afafaf;
+  padding-top: 40px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 12px;
 }
